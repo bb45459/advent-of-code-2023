@@ -19,4 +19,4 @@ const res = await fetch(`https://adventofcode.com/2023/day/${day}/input`, {
 
 const text = await res.text();
 
-await Deno.writeTextFile(`./day${day}/input.txt`, text);
+await Deno.writeTextFile(`src/day${day}/input.txt`, text);
