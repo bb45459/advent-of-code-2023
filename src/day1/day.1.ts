@@ -1,5 +1,5 @@
 function parseInput() {
-  const input = Deno.readTextFileSync("./day1/input.txt");
+  const input = Deno.readTextFileSync("src/day1/input.txt");
 
   const parsed = input
     .split("\n");
